@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class myapp extends Component {
+export default class SupremeBot extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('myapp', () => myapp);
+AppRegistry.registerComponent('SupremeBot', () => SupremeBot);
